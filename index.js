@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 app.post('/fetchUrl', async (req, res) => {
 
     const socureEndpoint = 'https://service.socure.com/api/3.0/documents/request';
-    const idPlusKey = 'SocureApiKey c46c7145-2fb3-442e-8138-a57f683b1b5b';
+    const idPlusKey = 'SocureApiKey socure_id_plus_key';
 
     try{
       const response = await axios.post(
